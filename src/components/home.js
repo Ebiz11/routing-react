@@ -1,13 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export class Home extends React.Component {
-  render() {
-    return(
-      <div>
-          <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    )
-  }
-}
+const Home = () => (
+  <div>
+    <h1>Welcome Gan!</h1>
+  </div>
+)
+
+export default Home
